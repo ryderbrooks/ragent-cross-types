@@ -1,0 +1,39 @@
+{
+  "name": "@ragent/cross-types",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.d.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "setup": "npm install",
+    "build": "tsc",
+    "typedoc": "typedoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryderbrooks/ragent-cross-types.git"
+  },
+  "homepage": "https://github.com/ryderbrooks/ragent-cross-types#readme",
+  "bugs": {
+    "url": "https://github.com/ryderbrooks/agent-pool.git/issues"
+  },
+  "files": [
+    "dist/index.d.ts",
+    "dist/meta/*.d.ts"
+  ],
+  "keywords": [],
+  "author": "Ryder Brooks",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.14.4",
+    "acorn": "^6.1.1",
+    "eslint": "^5.15.3",
+    "eslint-plugin-tslint": "^3.1.0",
+    "eslint-plugin-typescript": "^0.12.0",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000",
+    "typedoc": "^0.14.2",
+    "typescript-eslint-parser": "^21.0.2",
+    "typescript-estree": "^1.1.0"
+  }
+}

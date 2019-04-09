@@ -30,20 +30,16 @@ export namespace structs {
 }
 
 
-
-
-
 export namespace interfaces {
     export interface IRequestable {
         request( {
                      headers,
                      options,
                      responseTimeout,
-                     transferTimeout
-        }: structs.sRequestConstructorArgs ): Promise<structs.sTransfer>;
+                     transferTimeout,
+                 }: structs.sRequestConstructorArgs ): Promise<structs.sTransfer>;
     }
 }
-
 
 
 export namespace types {

@@ -1,6 +1,6 @@
 {
   "name": "@ragent/cross-types",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "",
   "main": "dist/index",
   "types": "dist/index",

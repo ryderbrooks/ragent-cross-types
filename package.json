@@ -17,6 +17,12 @@
   "bugs": {
     "url": "https://github.com/ryderbrooks/agent-pool.git/issues"
   },
+  "files": [
+    "dist/**/*.d.ts",
+    "dist/**/*.d.map.ts",
+    "dist/*.d.ts",
+    "dist/*.d.map.ts"
+  ],
   "keywords": [],
   "author": "Ryder Brooks",
   "license": "ISC",

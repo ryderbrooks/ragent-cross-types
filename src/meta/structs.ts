@@ -1,4 +1,3 @@
-// cross cutting
 import * as http2 from 'http2';
 
 
@@ -6,7 +5,6 @@ export type sInHeaders =
     http2.IncomingHttpHeaders
     & http2.IncomingHttpStatusHeader;
 
-// cross cutting
 export type sResponse = {
     responseHeaders: sInHeaders | undefined;
     stats: {
@@ -18,12 +16,10 @@ export type sResponse = {
     };
 };
 
-// cross cutting
-export type sTransfer =
-    {body: Buffer}
-    & sResponse;
+type _body = {body: Buffer};
+export type sTransfer = _body & sResponse;
 
-// cross cutting
+
 export type sRequestConstructorArgs = {
     headers: http2.OutgoingHttpHeaders;
     options: http2.ClientSessionRequestOptions;

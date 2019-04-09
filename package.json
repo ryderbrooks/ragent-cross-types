@@ -19,9 +19,9 @@
   },
   "files": [
     "dist/**/*.d.ts",
-    "dist/**/*.d.map.ts",
+    "dist/**/*.d.ts.map",
     "dist/*.d.ts",
-    "dist/*.d.map.ts"
+    "dist/*.d.ts.map"
   ],
   "keywords": [],
   "author": "Ryder Brooks",

@@ -27,7 +27,11 @@
     "warnOnUnsupportedTypeScriptVersion": true
   },
   "rules": {
-    "adjacent-overload-signatures": true
+    "adjacent-overload-signatures": true,
+    "indent": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/camelcase": "warn",
+    "no-fallthrough": "warn"
   },
   "overrides": [
 
